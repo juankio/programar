@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
   char letra;
-  cout << "ingresauna vocal" << endl;
+  cout << "ingresa una vocal" << endl;
   cin >> letra;
   if ((letra == 'a') || (letra == 'A'))
   {
