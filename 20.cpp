@@ -8,7 +8,7 @@ int main()
 
   while (letra != "exit")
   {
-    cout << "ingresa una vocal del alfabeto" << endl;
+    cout << "ingresa una vocal del abecedario" << endl;
     cin >> letra;
     if ((letra == "a") || (letra == "A"))
     {
