@@ -4,11 +4,12 @@
 using namespace std;
 int main()
 {
-  char *letra;
-  cout << "ingresa una vocal del alfabeto" << endl;
-  cin >> letra;
+  string letra;
+
   while (letra != "exit")
   {
+    cout << "ingresa una vocal del alfabeto" << endl;
+    cin >> letra;
     if ((letra == "a") || (letra == "A"))
     {
       cout << "es una vocal" << endl;
@@ -35,4 +36,5 @@ int main()
     }
   }
   cout << "Fin del programa";
+  return 0;
 }
