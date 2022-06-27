@@ -1,20 +1,27 @@
-/*Hacer un programa en C++ que diga si un número es par o impar.*/
-#include<iostream>
+
+#include <iostream>
 
 using namespace std;
-int main ()
+int main()
 {
-int a;
-cout<<"ingresar un numero"<<endl;
-cin>>a;
-
-if(a%2==0)
-{
- cout<<"el numero es par"<<endl;
-}
-else
-{
- cout<<"el numero es impar"<<endl;
-}
-return 0;	
+    int edad;
+    while (edad <= 1)
+    {
+        cout << "cuantos aÃ±os tienes" << endl;
+        cin >> edad;
+        if (edad >= 18)
+        {
+            cout << "eres mayor de edad" << edad;
+        }
+        else if (edad <= 17)
+        {
+            cout << "eres menor de edad" << edad;
+        }
+        else
+        {
+            cout << "no es numero" << endl12;
+        }
+    }
+    cout << "fin del programa";
+    return 0;
 }
