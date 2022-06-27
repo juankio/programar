@@ -1,2 +1,2 @@
-let numero = 29;
+let numero = 22;
 alert(numero)
